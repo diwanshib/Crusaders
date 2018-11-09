@@ -15,3 +15,5 @@ df.head()
 df_pm=df[df['PRODUCTLINE']=='Motorcycles']
 sns.FacetGrid(df_pm, hue="COUNTRY", height=8) \
    .map(sns.kdeplot, "QUANTITYORDERED").add_legend()
+df_Ire = df[df['COUNTRY'] == 'Ireland']
+plt.plot(df_Ire['ORDERNUMBER'], df_Ire['DEALSIZE'],color='g')
