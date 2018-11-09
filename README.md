@@ -1,7 +1,7 @@
 # Crusaders
 
 
-Reading/Learning Material
+Reading/Learning Material \n
 Basics
   https://www.python-course.eu/neural_networks.php
   https://courses.edx.org/courses/course-v1:UCSanDiegoX+DSE200x+3T2018/course/ python jupyter and data visualization
