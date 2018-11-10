@@ -7,10 +7,10 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 sns.set(style="dark", color_codes=True)
 
-# Next, we'll load the Iris flower dataset, which is in the "../input/" directory
-df = pd.read_csv("sales_data_sample.csv") # the iris dataset is now a Pandas DataFrame
+# Next, we'll load the dataset, which is in the "../input/" directory
+df = pd.read_csv("sales_data_sample.csv") # the dataset is now a Pandas DataFrame
 
-# Let's see what's in the iris data - Jupyter notebooks print the result of the last thing you do
+# Let's see what's in the data - Jupyter notebooks print the result of the last thing you do
 df.head()
 df_pm=df[df['PRODUCTLINE']=='Motorcycles']
 sns.FacetGrid(df_pm, hue="COUNTRY", height=8) \
